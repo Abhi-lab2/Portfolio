@@ -35,7 +35,7 @@ export const Contact = () => {
               <VscGithub className="github" />
             </a>
             <a
-              href="mailto:abhijeetchaudhari110@gmail.com"
+              href="mailto: abhijeetchaudhari110@gmail.com"
               target="_blank"
               rel="noreferrer"
             >

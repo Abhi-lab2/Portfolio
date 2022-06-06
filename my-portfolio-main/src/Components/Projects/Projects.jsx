@@ -29,6 +29,53 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
+                    src="https://github.com/Abhi-lab2/mytheresa.com/raw/ScreenShots/Homepage.png?raw=true"
+                    alt="Mytheresa Clone"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Mytheresa Clone</h2>
+                <p>
+                  Mytheresa is a German e-commerce luxury fashion company. It is
+                  a lifestyle fashion brand that lets their customers have a
+                  hassle-free and convenient online shopping experience.
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiMongodb />
+                  <SiHtml5 />
+                  <DiCss3 />
+                </div>
+                <div>
+                  <a
+                    href="https://cloneofmytheresa-com.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Abhi-lab2/mytheresa.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
                     src="https://cdn-images-1.medium.com/max/800/1*z8M1Ap-l4VNue2_Qu4DQUw.png"
                     alt="Pluralsight Clone"
                   />
@@ -209,33 +256,35 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          {/* <div className="projects_container" data-aos="fade-right">
+          <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
-                    alt="Uniqlo-Clone"
+                    src="https://miro.medium.com/max/1400/1*hJQLw4EXOg_k9IKj8U1nBw.png"
+                    alt="Mytheresa Clone"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Uniqlo Clone</h2>
+                <h2>GST App</h2>
                 <p>
-                  UNIQLO is a clothing apparel company, from Japan. They also
-                  sell their products in online mode through their website. We
-                  cloned their website.
+                  GST App provides inbuilt calculator, which also calculates and
+                  saves the various kinds of information that is being provided
+                  by the user. It includes org names tab and other input. This
+                  incl. CGST/ IGST etc.
                 </p>
                 <div>
-                  <SiNodedotjs />
+                  {/* <SiNodedotjs />
                   <SiExpress />
-                  <SiMongodb />
+                  <SiMongodb /> */}
+                  <IoLogoJavascript />
                   <SiHtml5 />
                   <DiCss3 />
                 </div>
                 <div>
                   <a
-                    href="https://uniqlo-clone.netlify.app/"
+                    href="https://my-gst-app.netlify.app"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -244,7 +293,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
+                    href="https://github.com/Abhi-lab2/React-revision/tree/main/My-GST-WebApp-main"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -256,7 +305,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
+          {/*<div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>

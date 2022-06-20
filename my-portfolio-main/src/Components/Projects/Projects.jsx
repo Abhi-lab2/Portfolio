@@ -29,6 +29,55 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
+                    src="https://camo.githubusercontent.com/ab5524e63e8a3a98fe15f40ef6cc9ece3997f9a2a9812a71f36ac1781045c4cc/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f312a342d4748395669367a31576430496864725368694f772e706e67"
+                    alt="Meesho Clone"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Meesho Clone</h2>
+                <p>
+                  Meesho is a social commerce platform that undertakes retail
+                  distribution, enabling small retail merchants to connect and
+                  sell their products effectively via social media channels.
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  {/* <SiExpress /> */}
+                  <SiMongodb />
+                  <FaReact />
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <SiMaterialui />
+                </div>
+                <div>
+                  <a
+                    href="https://meesho-clone-website.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Abhi-lab2/meesho-cloned"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
                     src="https://github.com/Abhi-lab2/mytheresa.com/raw/ScreenShots/Homepage.png?raw=true"
                     alt="Mytheresa Clone"
                   />
@@ -43,8 +92,9 @@ export const Projects = () => {
                 </p>
                 <div>
                   <SiNodedotjs />
-                  <SiExpress />
+                  {/* <SiExpress /> */}
                   <SiMongodb />
+                  <FaReact />
                   <SiHtml5 />
                   <DiCss3 />
                 </div>
@@ -92,8 +142,8 @@ export const Projects = () => {
                 <div>
                   <SiNodedotjs />
                   <SiExpress />
+                  <IoLogoJavascript />
                   <SiMongodb />
-                  <FaReact />
                   <SiMaterialui />
                 </div>
                 <div>
@@ -256,99 +306,6 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://miro.medium.com/max/1400/1*hJQLw4EXOg_k9IKj8U1nBw.png"
-                    alt="Mytheresa Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>GST App</h2>
-                <p>
-                  GST App provides inbuilt calculator, which also calculates and
-                  saves the various kinds of information that is being provided
-                  by the user. It includes org names tab and other input. This
-                  incl. CGST/ IGST etc.
-                </p>
-                <div>
-                  {/* <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb /> */}
-                  <IoLogoJavascript />
-                  <SiHtml5 />
-                  <DiCss3 />
-                </div>
-                <div>
-                  <a
-                    href="https://my-gst-app.netlify.app"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Abhi-lab2/React-revision/tree/main/My-GST-WebApp-main"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/*<div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://i.ibb.co/KVBGkdy/FFD69103-C304-42-E8-BCCD-8836-AAEFEA9-C.jpg"
-                    alt="PulsePlus-Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>PulsePlus Clone</h2>
-                <p>
-                  PulsePlus is an E-commerce web application for online Buying
-                  Medicines and Consult to Doctor and Book a near Testlab.
-                </p>
-                <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
-                </div>
-                <div>
-                  <a
-                    href="https://pulseplus-clone.netlify.app/landing_page.html"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Shreyasgkhakal100/www.pulseplus.in-Clone"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </>

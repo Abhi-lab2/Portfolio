@@ -68,6 +68,42 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
+            date={"Dec 2021 - June 2022"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Software Engineer and Business Development Intern
+            </h3> {" "}
+            {/* <br /> */}
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Flippies Gourmet Pvt Ltd, Mumbai (Remote)
+            </h4>
+            <p data-aos="fade-right">
+              Part of team to build the webpages and also part of a team in Business Strategy and Development for competitive strategies.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
             date={"Sept 2020 - Nov 2021"}
             contentStyle={{
               boxShadow: `var(--shadow)`,

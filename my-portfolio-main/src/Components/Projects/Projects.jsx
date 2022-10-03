@@ -30,7 +30,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://camo.githubusercontent.com/578c6098e3ff58eabbc620086f1f104d7dee6a0adcdbe57d89c45849d6bd285f/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3732302f312a625a4243427237714b4c426455385966494456386c672e706e67"
+                    src="https://camo.githubusercontent.com/a02884304f61a39cf3de0b716e9fd361b76161f070cdc09257932a697967a8be/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f312a354d52654579516a695f45537a5249775438775930772e706e67"
                     alt="Abhi music app"
                   />
                 </div>
@@ -39,6 +39,7 @@ export const Projects = () => {
                 <h2>Abhi Music</h2>
                 <p>
                   Play Your Favourite Songs, Find New Music, and See What Friends Are Listening to. Listen to Your Favourite Artists, Songs and Albums for Free.
+                  Listen on Several Devices. Listen Songs with Lyrics.
                 </p>
                 <div>
                   {/* <SiNodedotjs /> */}

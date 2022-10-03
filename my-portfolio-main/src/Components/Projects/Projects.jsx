@@ -14,6 +14,7 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
+  SiFastapi,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -24,6 +25,54 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+        <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src="https://camo.githubusercontent.com/578c6098e3ff58eabbc620086f1f104d7dee6a0adcdbe57d89c45849d6bd285f/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3732302f312a625a4243427237714b4c426455385966494456386c672e706e67"
+                    alt="Abhi music app"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Abhi Music</h2>
+                <p>
+                  Play Your Favourite Songs, Find New Music, and See What Friends Are Listening to. Listen to Your Favourite Artists, Songs and Albums for Free.
+                </p>
+                <div>
+                  {/* <SiNodedotjs /> */}
+                  {/* <SiExpress /> */}
+                  {/* <SiMongodb /> */}
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <FaReact />
+                  <SiFastapi />
+                  <SiTailwindcss />
+                </div>
+                <div>
+                  <a
+                    href="https://abhi-music.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Abhi-lab2/Abhi-music"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -260,7 +309,7 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="projects_container" data-aos="fade-right">
+          {/* <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -305,7 +354,7 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

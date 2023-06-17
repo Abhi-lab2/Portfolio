@@ -32,7 +32,48 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"Nov 2021 - Present"}
+            date={"Nov 2022 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Software Engineer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Neviton Softech Pvt Ltd.
+            </h4>
+            <p data-aos="fade-right">
+              Working as a MERN Full Stack Web Developer with proficient in
+              writing complex SQL queries, designing efficient database schemas,
+              and utilizing AWS services like CodeCommit, CloudWatch, and S3.
+              Skilled in JIRA, agile techniques, and working with tech stacks
+              including React, Node.js, and SQL. Capable of delivering
+              end-to-end web solutions, optimizing performance, and leveraging
+              cloud-based solutions.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date={"Nov 2021 - Sept 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -68,7 +109,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Dec 2021 - June 2022"}  
+            date={"Dec 2021 - June 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -91,7 +132,7 @@ export const Timeline = () => {
               data-aos="fade-right"
             >
               Software Engineer and Business Development Intern (part-time)
-            </h3> {" "}
+            </h3>{" "}
             {/* <br /> */}
             <h4
               className="vertical-timeline-element-subtitle"
@@ -100,7 +141,8 @@ export const Timeline = () => {
               Flippies Gourmet Pvt Ltd, Mumbai (Remote)
             </h4>
             <p data-aos="fade-right">
-              Part of team to build the webpages and also part of a team in Business Strategy and Development for competitive strategies.
+              Part of team to build the webpages and also part of a team in
+              Business Strategy and Development for competitive strategies.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

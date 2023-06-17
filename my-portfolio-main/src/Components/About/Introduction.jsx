@@ -31,9 +31,10 @@ export const Introduction = () => {
                 </span>
                 . Then I joined full stack development course by{" "}
                 <span className="different">Masai School</span> a military type
-                coding school.
+                coding school. Now working as Full-Stack Web developer at{" "}
+                <span className="different">Neviton Softech</span>
               </h4>
-              <h4>Terms That can describe me apart form Coding :</h4>
+              <h4>Terms That can describe me apart from Coding :</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />

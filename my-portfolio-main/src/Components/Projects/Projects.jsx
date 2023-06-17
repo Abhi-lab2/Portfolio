@@ -15,6 +15,8 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiFastapi,
+  SiFirebase,
+  SiCss3,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -25,7 +27,7 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
-        <div className="projects_container" data-aos="fade-right">
+          <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -38,8 +40,10 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Abhi Music</h2>
                 <p>
-                  Play Your Favourite Songs, Find New Music, and See What Friends Are Listening to. Listen to Your Favourite Artists, Songs and Albums for Free.
-                  Listen on Several Devices. Listen Songs with Lyrics.
+                  Play Your Favourite Songs, Find New Music, and See What
+                  Friends Are Listening to. Listen to Your Favourite Artists,
+                  Songs and Albums for Free. Listen on Several Devices. Listen
+                  Songs with Lyrics.
                 </p>
                 <div>
                   {/* <SiNodedotjs /> */}
@@ -54,6 +58,7 @@ export const Projects = () => {
                 <div>
                   <a
                     href="https://abhi-music.netlify.app/"
+                    // href="https://abhi-music-app.netlify.app"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -102,7 +107,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://meesho-clone-website.netlify.app/"
+                    href="https://meesho-web.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -111,7 +116,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Abhi-lab2/meesho-cloned"
+                    href="https://github.com/Abhi-lab2/meesho-web"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -128,29 +133,29 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://github.com/Abhi-lab2/mytheresa.com/raw/ScreenShots/Homepage.png?raw=true"
-                    alt="Mytheresa Clone"
+                    src="https://camo.githubusercontent.com/58edc9a8219609e45ec244ed5bf9c75729f013f704f77095b657e046797b20cb/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a3732302f666f726d61743a776562702f312a7377666a343031735039733869674b73703549794e672e706e67"
+                    alt="LinkedIn Clone image"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Mytheresa Clone</h2>
+                <h2>LinkedIn Clone</h2>
                 <p>
-                  Mytheresa is a German e-commerce luxury fashion company. It is
-                  a lifestyle fashion brand that lets their customers have a
-                  hassle-free and convenient online shopping experience.
+                  LinkedIn Clone is a professional networking platform that
+                  replicates the features & functionality of LinkedIn, allowing
+                  users to connect with professionals, showcase their work exp &
+                  explore job opportunities within their industry.
                 </p>
                 <div>
                   <SiNodedotjs />
-                  {/* <SiExpress /> */}
-                  <SiMongodb />
+                  <SiFirebase />
                   <FaReact />
                   <SiHtml5 />
-                  <DiCss3 />
+                  <SiCss3 />
                 </div>
                 <div>
                   <a
-                    href="https://cloneofmytheresa-com.vercel.app/"
+                    href="https://linkedin-web-app.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -159,7 +164,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Abhi-lab2/mytheresa.com"
+                    href="https://github.com/Abhi-lab2/LinkedIn-Clone"
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -283,17 +283,18 @@ export const Projects = () => {
                 <h2>Movie App</h2>
                 <p>
                   This is the Movie app build using api and shows all the movies
-                  with the ratings and the short description of the movie which
-                  is searched for This is a Sole Project and was build in a day.
+                  with the ratings and the short description with trailers, and discover thousands of movies and TV shows.
+                  Browse curated collections, get personalized recommendations.
                 </p>
                 <div>
+                  <FaReact />
+                  <IoLogoJavascript />
                   <DiCss3 />
                   <SiHtml5 />
-                  <IoLogoJavascript />
                 </div>
                 <div>
                   <a
-                    href="https://movies-reviewer-app.netlify.app/"
+                    href="https://abhify-movie.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -302,7 +303,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Abhi-lab2/The-Movie-App"
+                    href="https://github.com/Abhi-lab2/abhify-movie-app"
                     target="_blank"
                     rel="noreferrer"
                   >

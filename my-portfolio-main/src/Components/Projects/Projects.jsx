@@ -84,6 +84,52 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
+                    src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*8gGtEUkFY7k00H9f9sh37g.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Movie App</h2>
+                <p>
+                  This is the Movie app build using api and shows all the movies
+                  with the ratings and the short description with trailers, and discover thousands of movies and TV shows.
+                  Browse curated collections, get personalized recommendations.
+                </p>
+                <div>
+                  <FaReact />
+                  <IoLogoJavascript />
+                  <DiCss3 />
+                  <SiHtml5 />
+                </div>
+                <div>
+                  <a
+                    href="https://abhify-movie.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Abhi-lab2/abhify-movie-app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
                     src="https://camo.githubusercontent.com/ab5524e63e8a3a98fe15f40ef6cc9ece3997f9a2a9812a71f36ac1781045c4cc/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f312a342d4748395669367a31576430496864725368694f772e706e67"
                     alt="Meesho Clone"
                   />
@@ -98,7 +144,6 @@ export const Projects = () => {
                 </p>
                 <div>
                   <SiNodedotjs />
-                  {/* <SiExpress /> */}
                   <SiMongodb />
                   <FaReact />
                   <SiHtml5 />
@@ -127,13 +172,13 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://camo.githubusercontent.com/58edc9a8219609e45ec244ed5bf9c75729f013f704f77095b657e046797b20cb/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a3732302f666f726d61743a776562702f312a7377666a343031735039733869674b73703549794e672e706e67"
+                    src="https://camo.githubusercontent.com/f8d29ac974b1e98c3e302790c578f1fee3a529d8db48ceba7cff5398b1955270/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a3732302f666f726d61743a776562702f312a7377666a343031735039733869674b73703549794e672e706e67"
                     alt="LinkedIn Clone image"
                   />
                 </div>
@@ -155,7 +200,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://linkedin-web-app.netlify.app/"
+                    href="https://newlinkedin.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -224,7 +269,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
+          {/* <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -248,7 +293,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://freshly-new.netlify.app/"
+                    href="https://freshly-clone-ten.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -258,99 +303,6 @@ export const Projects = () => {
                   </a>
                   <a
                     href="https://github.com/Abhi-lab2/freshly-Clone"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://cdn-images-1.medium.com/max/800/1*qU--eirYHvqb9BJB_lgHVA.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Movie App</h2>
-                <p>
-                  This is the Movie app build using api and shows all the movies
-                  with the ratings and the short description with trailers, and discover thousands of movies and TV shows.
-                  Browse curated collections, get personalized recommendations.
-                </p>
-                <div>
-                  <FaReact />
-                  <IoLogoJavascript />
-                  <DiCss3 />
-                  <SiHtml5 />
-                </div>
-                <div>
-                  <a
-                    href="https://abhify-movie.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Abhi-lab2/abhify-movie-app"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://user-images.githubusercontent.com/66909138/164240744-5bc86679-e0b5-412b-9cae-1ee40e8aaf68.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Weather App</h2>
-                <p>
-                  Location based weather app. User can also search for their
-                  cities and can see weather data of respective places. As it
-                  Provides city weather details with inbuild Google-map - using
-                  weather API
-                </p>
-                <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
-                </div>
-                <div>
-                  <a
-                    href="https://ab-weather.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Abhi-lab2/Weather-App"
                     target="_blank"
                     rel="noreferrer"
                   >

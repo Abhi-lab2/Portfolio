@@ -73,7 +73,43 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Nov 2021 - Sept 2022"}
+            date={"Dec 2021 - Oct 2022"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Trainee Software Engineer
+            </h3>{" "}
+            {/* <br /> */}
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Flippies Gourmet Pvt Ltd, Mumbai (Remote)
+            </h4>
+            <p data-aos="fade-right">
+              Worked as a Frontend Developer specializing in HTML, CSS, and JavaScript; developed and maintained e-commerce websites, contributing to SEO and user experience improvements. Held a dual role combining technical development with analytical enhancements for e-commerce operations.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date={"Nov 2021 - June 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -101,48 +137,11 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School (Remote)
+              Masai School (Remote) - certification
             </h4>
             <p data-aos="fade-right">
               Joined the Military coding school to learn Full Stack Development
               and DSA. Also get to learn lot more other skills as well.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date={"Dec 2021 - June 2022"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Software Engineer and Business Development Intern (part-time)
-            </h3>{" "}
-            {/* <br /> */}
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Flippies Gourmet Pvt Ltd, Mumbai (Remote)
-            </h4>
-            <p data-aos="fade-right">
-              Part of team to build the webpages and also part of a team in
-              Business Strategy and Development for competitive strategies.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

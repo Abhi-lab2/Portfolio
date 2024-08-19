@@ -140,8 +140,8 @@ export const Timeline = () => {
               Masai School (Remote) - certification
             </h4>
             <p data-aos="fade-right">
-              Joined the Military coding school to learn Full Stack Development
-              and DSA. Also get to learn lot more other skills as well.
+              Joined the Military coding school to learn Full Stack Development/ MERN Stack
+              and DSA. Also learnt lot more other skills as well.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
